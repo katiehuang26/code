@@ -1,10 +1,4 @@
-# README
-
-## Empora Code Sample Submission
-
-### Katelyn Huang
-
-Preferred name: Katie
+# Empora Code Sample Submission
 
 ### Setup
 

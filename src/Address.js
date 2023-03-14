@@ -1,6 +1,4 @@
-/* 
-* Defines an address object to store data about an address that is being validated
-*/
+// Defines an address object to store data about an address that is being validated
 
 class Address {
     constructor(street, city, zip) {

@@ -52,6 +52,7 @@ class SmartyValidatorService {
         return batch;
     }
 
+    // Gets the batched addresses, sends them to the US Street Verification API, then prints results
     async validate(addresses) {
         const batch = SmartyValidatorService.createLookupBatch(addresses);
 
