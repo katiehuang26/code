@@ -2,7 +2,7 @@ const _ = require('lodash');
 const Address = require('./Address');
 
 // Reads in the csv data piped in, and returns a collection of Address objects
-export function readAddresses(addressCSV) {
+function readAddresses(addressCSV) {
     // Split the text input by line, and then remove any trailing empty strings
     const addressStrings = _.filter(
         _.split(addressCSV, '\r\n'), (str) => { return str !== ''; });
@@ -20,3 +20,5 @@ export function readAddresses(addressCSV) {
 
     return addresses;
 }
+
+module.exports = { readAddresses };

@@ -5,6 +5,7 @@
 1. Download Node.js and `npm`
 2. Clone repository
 3. Run `npm install` to download all dependencies
+4. Add your authentication details for the Smarty API (`AUTH_ID` and `AUTH_TOKEN`) to a `.env` file and add to `src/` 
 
 ### How to run code sample and tests
 
